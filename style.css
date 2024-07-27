@@ -1,0 +1,80 @@
+*{
+    font-family: "Acme", sans-serif;
+}
+.image-container{
+    position: relative;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-color: #007bff; 
+  }
+#text{
+    text-align: center;
+    margin-left: 750px;
+}
+#t1{
+    font-family: "Playwrite BE VLG", cursive;
+    
+}
+#text1{
+    margin-top: -500px;
+}
+#heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.img-div :hover{
+    cursor: pointer;
+}
+.img-div :hover .card-contents{
+    height: 87%;
+    opacity: 1;
+}
+.card-contents{
+    height: 10px;
+    opacity: 0;
+    width: 84%;
+    position: absolute;
+    background-color: rgb(27, 27,27, .5);
+    box-sizing: border-box;
+}
+#para1{
+    text-align: justify;
+}
+#btn2:hover{
+    background-color: red;
+}
+#btn2{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    margin-left: 700px;
+}
+#btn3{
+    padding: 10px;
+    background-color:aqua;
+    border-radius: 10px;
+    border: none;
+}
+h5{
+    font-family: "Playwrite BE VLG", cursive;
+    color: red;
+}
+.icon1{
+    font-size: 30px;
+}
